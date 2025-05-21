@@ -11,25 +11,27 @@ The EIP-2535 Diamond Standard allows a smart contract (the Diamond) to delegate 
 - Stay under the Ethereum contract size limit (24 KB) by splitting code into smaller pieces.
 
 
-Folder Structure: 
+## Folder Structure ->  
+
 diamond-1/
-├── src/
-│   ├── Diamond.sol              # The main Diamond contract
-│   ├── libraries/
-│   │   └── LibDiamond.sol       # Library for managing the Diamond’s data
-│   ├── Facets/
-│   │   ├── DiamondCutFacet.sol  # Facet for upgrading the Diamond
-│   │   ├── DiamondLoupeFacet.sol # Facet for inspecting the Diamond
-│   │   ├── OwnershipFacet.sol   # Facet for managing ownership
-│   │   └── SimpleFacet.sol      # A test facet for adding/upgrading functions
-│   └── upgradeInitializers/
-│       └── DiamondInit.sol      # Contract for initializing the Diamond
-├── test/
-│   ├── DiamondTest.t.sol        # Tests for the Diamond’s functionality
-│   └── DiamondDeploymentTest.t.sol # Tests for the deployment script
-├── script/
-│   └── Diamond.s.sol            # Deployment script for the Diamond
-└── README.md                    # This file
+ ├── src/
+ │   ├── Diamond.sol              # The main Diamond contract
+ │   ├── libraries/
+ │   │   └── LibDiamond.sol       # Library for managing the Diamond’s data
+ │   ├── Facets/
+ │   │   ├── DiamondCutFacet.sol  # Facet for upgrading the Diamond
+ │   │   ├── DiamondLoupeFacet.sol # Facet for inspecting the Diamond
+ │   │   ├── OwnershipFacet.sol   # Facet for managing ownership
+ │   │   └── SimpleFacet.sol      # A test facet for adding/upgrading functions
+ │   └── upgradeInitializers/
+ │       └── DiamondInit.sol      # Contract for initializing the Diamond
+ ├── test/
+ │   ├── DiamondTest.t.sol        # Tests for the Diamond’s functionality
+ │   └── DiamondDeploymentTest.t.sol # Tests for the deployment script
+ ├── script/
+ │   └── Diamond.s.sol            # Deployment script for the Diamond
+ └── README.md                    # This file
+
 
 ## How the Diamond 1 Implementation Works ? 
 
