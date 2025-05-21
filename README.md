@@ -36,4 +36,10 @@ diamond-1/
 # How the Diamond 1 Implementation Works? 
 ![diamond working](https://github.com/user-attachments/assets/b7910eec-1711-4687-8f6a-7b640b880338)
 
+# Tests
+- Adding Facet
+- Deploying 
+- Ownership Transfer
+- Upgrading Facet
+  ![image](https://github.com/user-attachments/assets/748175e7-33c5-4b0f-860f-9cd392183dc2)
 
